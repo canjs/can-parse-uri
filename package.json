@@ -1,6 +1,6 @@
 {
   "name": "can-parse-uri",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Parse a URI into its components.",
   "homepage": "https://canjs.com/",
   "repository": {
