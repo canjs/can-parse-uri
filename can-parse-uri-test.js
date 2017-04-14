@@ -1,7 +1,7 @@
-var QUnit = require('../../test/qunit');
-var parseURI = require('./parse-uri');
+var parseURI = require('./can-parse-uri');
+var QUnit = require('steal-qunit');
 
-QUnit.module("can-util/js/parse-uri");
+QUnit.module("can-parse-uri");
 
 QUnit.test("basics", function(){
 	QUnit.deepEqual(parseURI("http://foo:8080/bar.html#change"), {
