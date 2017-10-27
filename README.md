@@ -1,32 +1,28 @@
 # can-parse-uri
 
-[![Build Status](https://travis-ci.org/canjs/can-parse-uri.png?branch=master)](https://travis-ci.org/canjs/can-parse-uri)
+[![Join the chat at https://gitter.im/canjs/canjs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/canjs/canjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/canjs/can-parse-uri/blob/master/LICENSE)
+[![npm version](https://badge.fury.io/js/can-parse-uri.svg)](https://www.npmjs.com/package/can-parse-uri)
+[![Travis build status](https://travis-ci.org/canjs/can-parse-uri.svg?branch=master)](https://travis-ci.org/canjs/can-parse-uri)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/canjs/can-parse-uri?branch=master&svg=true)](https://ci.appveyor.com/project/matthewp/can-parse-uri)
+[![Coverage status](https://coveralls.io/repos/github/canjs/can-parse-uri/badge.svg?branch=master)](https://coveralls.io/github/canjs/can-parse-uri?branch=master)
+[![Greenkeeper badge](https://badges.greenkeeper.io/canjs/can-parse-uri.svg)](https://greenkeeper.io/)
 
 Parse a URI into its components.
 
-## Usage
+## Documentation
 
-### ES6 use
+Read the [can-parse-uri API docs on CanJS.com](https://canjs.com/doc/can-parse-uri.html).
 
-With StealJS, you can import this module directly in a template that is autorendered:
+## Changelog
 
-```js
-import plugin from 'can-parse-uri';
-```
+See the [latest releases on GitHub](https://github.com/canjs/can-parse-uri/releases).
 
-### CommonJS use
+## Contributing
 
-Use `require` to load `can-parse-uri` and everything else
-needed to create a template that uses `can-parse-uri`:
+The [contribution guide](https://github.com/canjs/can-parse-uri/blob/master/CONTRIBUTING.md) has information on getting help, reporting bugs, developing locally, and more.
 
-```js
-var plugin = require("can-parse-uri");
-```
+## License
 
-### Standalone use
+[MIT](https://github.com/canjs/can-parse-uri/blob/master/LICENSE)
 
-Load the `global` version of the plugin:
-
-```html
-<script src='./node_modules/can-parse-uri/dist/global/can-parse-uri.js'></script>
-```
