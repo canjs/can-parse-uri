@@ -1,6 +1,7 @@
 /**
  * @module {function} can-parse-uri can-parse-uri
- * @parent can-infrastructure
+ * @parent can-js-utilities
+ * @collection can-infrastructure
  * @signature `parseURI(url)`
  *
  * Parse a URI into its components.
