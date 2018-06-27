@@ -1,3 +1,4 @@
+"use strict";
 /**
  * @module {function} can-parse-uri can-parse-uri
  * @parent can-js-utilities
