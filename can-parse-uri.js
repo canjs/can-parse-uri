@@ -3,6 +3,7 @@
  * @module {function} can-parse-uri can-parse-uri
  * @parent can-js-utilities
  * @collection can-infrastructure
+ * @package ../package.json
  * @signature `parseURI(url)`
  *
  * Parse a URI into its components.
